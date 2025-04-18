@@ -2,7 +2,8 @@
 
   <br />
 
-  <h3 align="center">A Movie Finding App with Extensive Search</h3>
+  ### Cinephile/Cineseek : Discover Your Next Favorite Movie
+  # A Movie Finding App with Extensive Search
 </div>
 
 ## <a name="table">Table of Contents</a>
