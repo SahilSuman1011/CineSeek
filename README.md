@@ -2,7 +2,7 @@
 
   <br />
 
- # Cinephile/Cineseek : Discover Your Next Favorite Movie
+ # Cineseek : Discover Your Next Favorite Movie
    ###  A Movie Finding App with Extensive Search
 </div>
 
@@ -35,7 +35,7 @@ Built with Expo, TypeScript, and Tailwind CSS, this app fetches movies and creat
 
 ## <a name="features">Features</a>
 
-### Features of the Movie Finder App Project
+### Features of the Cineseek App 
 
 **Real-time data**: Fetching and displaying real-time movie data
 
