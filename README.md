@@ -2,8 +2,8 @@
 
   <br />
 
-  ### Cinephile/Cineseek : Discover Your Next Favorite Movie
-  # A Movie Finding App with Extensive Search
+ # Cinephile/Cineseek : Discover Your Next Favorite Movie
+   ###  A Movie Finding App with Extensive Search
 </div>
 
 ## <a name="table">Table of Contents</a>
