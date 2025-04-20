@@ -22,7 +22,10 @@ export default function Index() {
     mt-20 mb-5 mx-auto"/>
 
     <View className="flex-1 mt-5">
-    <SearchBar/>
+    <SearchBar
+    onPress={() => router.push("/search")}
+    placeholder="Search for a movie"
+    />
     </View>
 
      </ScrollView>
