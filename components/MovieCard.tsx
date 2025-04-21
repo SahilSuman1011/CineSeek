@@ -16,7 +16,7 @@ const MovieCard = ({id, poster_path, title, vote_average,
     />
   </TouchableOpacity>
 </Link>
-  )
+  ) 
 }
 
 export default MovieCard
