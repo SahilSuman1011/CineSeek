@@ -4,7 +4,7 @@ import { View, Text, ActivityIndicator, FlatList, Image } from "react-native";
 import { images } from "@/constants/images";
 import { icons } from "@/constants/icons";
 
-import useFetch from "@/services/usefetch";
+import useFetch from "@/services/useFetch";
 import { fetchMovies } from "@/services/api";
 import { updateSearchCount } from "@/services/appwrite";
 
@@ -28,14 +28,13 @@ const Search = () => {
 
   // Debounced search effect
   useEffect(() => {
+    if (movies && movies.length > 0) {
+      updateSearchCount(searchQuery, movies[0]);
+    }
+
     const timeoutId = setTimeout(async () => {
       if (searchQuery.trim()) {
         await loadMovies();
-
-        // Call updateSearchCount only if there are results
-        if (movies?.length! > 0 && movies?.[0]) {
-          await updateSearchCount(searchQuery, movies[0]);
-        }
       } else {
         reset();
       }
@@ -43,6 +42,15 @@ const Search = () => {
 
     return () => clearTimeout(timeoutId);
   }, [searchQuery]);
+
+  useEffect(() => {
+      
+       if (movies?.length! > 0 && movies?.[0]) {
+
+        updateSearchCount(searchQuery, movies[0]);
+      }
+
+  }, [movies]);
 
   return (
     <View className="flex-1 bg-primary">
@@ -67,7 +75,7 @@ const Search = () => {
         ListHeaderComponent={
           <>
             <View className="w-full flex-row justify-center mt-20 items-center">
-              <Image source={icons.logo} className="w-12 h-10" />
+              <Image source={icons.logo2} className="w-12 h-10" />
             </View>
 
             <View className="my-5">
