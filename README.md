@@ -5,8 +5,8 @@
  # Cineseek : Discover Your Next Favorite Movie
    ###  A Movie Finding App with Extensive Search
    ## APK Link : [Download here](https://drive.google.com/file/d/1TLOhY16S1RSPNzKuJdbic_8BOoo6k-AS/view?usp=drivesdk)
-   - User Interface :
-   - 
+![cine](https://github.com/user-attachments/assets/b532bffd-8f2b-457f-8bf8-15fedcac68c0) ![cine2](https://github.com/user-attachments/assets/d6028767-86b9-4e5e-af51-0298b2a2e53e)
+
    
 </div>
 
